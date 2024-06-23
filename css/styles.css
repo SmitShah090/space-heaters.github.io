@@ -1,0 +1,64 @@
+/*
+  Author: Smitkumar Shah
+  Date: May 29, 2024
+  File Name: styles.css
+  */
+
+/* CSS Reset */
+body,
+header,
+nav,
+main,
+footer,
+img,
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color: #2a1f14;
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #f6eee4;
+}
+
+#logo {
+    display: block;
+    width: 4em;
+    border-radius: 50%;
+}
+
+/* Style rules for main area*/
+main {
+    padding: 2%;
+    font-size: 1.25em;
+    clear: left;
+}
+
+/* Style rules for footer area */
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    padding: 0 1em;
+}
