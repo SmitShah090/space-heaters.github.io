@@ -1,0 +1,44 @@
+/*
+  Author: Smitkumar Shah
+  Date: July 20, 2024
+  File Name: about.css
+  */
+
+body {
+    background-color: #E8DEF8;
+    color: #65558F;
+    font-family: Inter, sans-serif;
+}
+
+/* Style rules for navigation area */
+nav {
+    display: flex;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+}
+
+.card-1 {}
