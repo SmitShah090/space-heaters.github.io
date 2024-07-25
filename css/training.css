@@ -1,0 +1,82 @@
+.title {
+    text-align: center;
+}
+
+.title p {
+    font-size: 1.2em;
+}
+
+.trainings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    justify-content: space-between;
+    padding: 40px;
+    grid-column-gap: 50px;
+    align-items: center;
+
+}
+
+.training-card {
+    background-color: #65558F;
+    color: #E8DEF8;
+    width: 430px;
+    border-radius: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.training-img {
+    border-radius: 50px;
+}
+
+.training-img>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.description {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.description h5 {
+    font-size: 1.2em;
+}
+
+.description h6 {
+    font-size: 1em;
+}
+
+.description p {
+    font-size: 0.9em;
+}
+
+.registration-area {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #65558F;
+    color: #E8DEF8;
+    border-radius: 40px;
+}
+
+.text-area input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+.text-area button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #E8DEF8;
+    color: #65558F;
+    border-radius: 5px;
+    cursor: pointer;
+    font: bold;
+}
