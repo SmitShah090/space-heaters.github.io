@@ -1,6 +1,6 @@
 /*
   Author: Smitkumar Shah
-  Date: July 20, 2024
+  Date: July 19, 2024
   File Name: about.css
   */
 
@@ -13,7 +13,8 @@
     text-align: center;
 }
 
-.mission {
+.mission,
+.vision {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
@@ -36,4 +37,37 @@
 .description {
     font-size: 1.25em;
     margin: 30px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+
+    .mission,
+    .vision {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 30px;
+    }
+
+    .description {
+        font-size: 1.2em;
+        margin: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .description {
+        font-size: 1.1em;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mission {
+        padding: 20px;
+    }
+
+    .description {
+        font-size: 1em;
+        margin: 15px;
+    }
 }

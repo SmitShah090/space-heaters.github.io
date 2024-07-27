@@ -1,3 +1,9 @@
+/*
+  Author: Smitkumar Shah
+  Date: July 19, 2024
+  File Name: media.css
+*/
+
 .title {
     text-align: center;
 }
@@ -26,4 +32,56 @@ p {
 
 .profile-card {
     text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px;
+    }
+
+    h4 {
+        font-size: 1.4em;
+    }
+
+    h3,
+    p {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    h4 {
+        font-size: 1.3em;
+    }
+
+    h3,
+    p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        padding: 10px;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    h3,
+    p {
+        font-size: 0.9em;
+    }
+
+    .grid-container {
+        padding: 10px;
+    }
 }

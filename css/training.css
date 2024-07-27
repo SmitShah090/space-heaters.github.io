@@ -1,3 +1,9 @@
+/*
+  Author: Smitkumar Shah
+  Date: July 20, 2024
+  File Name: media.css
+*/
+
 .title {
     text-align: center;
 }
@@ -24,6 +30,7 @@
     border-radius: 50px;
     text-align: center;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .training-img {
@@ -79,4 +86,86 @@
     border-radius: 5px;
     cursor: pointer;
     font: bold;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .trainings {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px;
+        grid-column-gap: 30px;
+    }
+
+    .training-card {
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .title p,
+    .description h5,
+    .description h6,
+    .description p {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .trainings {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        grid-column-gap: 20px;
+    }
+
+    .training-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .title p,
+    .description h5,
+    .description h6,
+    .description p {
+        font-size: 1em;
+    }
+
+    .registration-area {
+        padding: 15px;
+        border-radius: 30px;
+    }
+
+    .text-area input[type="email"] {
+        padding: 8px;
+    }
+
+    .text-area button {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .title p,
+    .description h5,
+    .description h6,
+    .description p {
+        font-size: 0.9em;
+    }
+
+    .trainings {
+        padding: 10px;
+    }
+
+    .registration-area {
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .text-area input[type="email"] {
+        padding: 6px;
+    }
+
+    .text-area button {
+        padding: 6px 12px;
+    }
 }

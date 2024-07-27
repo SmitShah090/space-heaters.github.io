@@ -1,3 +1,9 @@
+/*
+  Author: Smitkumar Shah
+  Date: July 20, 2024
+  File Name: specials.css
+*/
+
 section {
     padding: 20px;
     text-align: center;
@@ -90,4 +96,97 @@ section {
 
 .limited-time-offer img {
     max-width: 100%;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+
+    .discounts,
+    .testimonials {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 50px;
+        grid-column-gap: 50px;
+    }
+
+    .discount-card {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-card {
+        width: 300px;
+        margin-bottom: 100px;
+    }
+
+    .limited-time-offer {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .limited-time-offer .offer-details {
+        border-radius: 0 0 40px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 60px;
+    }
+
+    .discounts,
+    .testimonials {
+        grid-template-columns: 1fr;
+        padding: 30px;
+        grid-column-gap: 20px;
+    }
+
+    .discount-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-card {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .limited-time-offer {
+        flex-direction: column;
+    }
+
+    .limited-time-offer .offer-details {
+        border-radius: 0 0 40px 40px;
+        padding: 20px;
+    }
+
+    .description {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        padding: 10px;
+    }
+
+    .discounts,
+    .testimonials {
+        padding: 20px;
+    }
+
+    .discount-card,
+    .testimonial-card {
+        margin: 20px;
+    }
+
+    .limited-time-offer .offer-details {
+        padding: 10px;
+    }
+
+    .description {
+        padding: 10px;
+        font-size: 0.9em;
+    }
 }
