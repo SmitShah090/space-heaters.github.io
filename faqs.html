@@ -1,14 +1,155 @@
 <!DOCTYPE html>
+
+<!-- Author: Smitkumar Shah
+Date: July 27, 2024
+File Name: media.html -->
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/faqs.css">
     <title>FAQs</title>
 </head>
 
 <body>
+    <header>
+        <div class="menu-container">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="menu-overlay">
+                <nav>
+                    <ul>
+                        <a href="index.html">
+                            <img id="logo" src="images/logo.png" alt="logo image" />
+                        </a>
+                        <li><a href="index.html"> Home </a></li>
+                        <li><a href="about.html"> About </a></li>
+                        <li><a href="team.html"> Our Team </a></li>
+                        <li><a href="specials.html"> Specials </a></li>
+                        <li><a href="training.html"> Training </a></li>
+                        <li><a href="media.html"> Media </a></li>
+                        <li><a href="faqs.html"> FAQs </a></li>
+                        <li><a href="contact.html"> Contact Us </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <nav class="desktop-menu">
+            <ul>
+                <li><a href="index.html"> Home </a></li>
+                <div class="temp"></div>
+                <li><a href="about.html"> About </a></li>
+                <li><a href="team.html"> Our Team </a></li>
+                <li><a href="specials.html"> Specials </a></li>
+                <li><a href="training.html"> Training </a></li>
+                <li><a href="media.html"> Media </a></li>
+                <li><a href="faqs.html"> FAQs </a></li>
+                <li><a href="contact.html"> Contact Us </a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <div class="title">
+            <h1 style="margin-bottom: 0;">FAQs</h1>
+            <img class="under-line" src="images/under-line.png" />
+        </div>
+        <section class="faqs-page">
+            <h1>Frequently Asked Questions</h1>
+
+            <div class="faq">
+                <h2>1. What are the different types of space heaters available?</h2>
+                <p>There are several types of space heaters including ceramic heaters, oil-filled radiators, infrared
+                    heaters, and fan-forced heaters. Each type has its own benefits and is suitable for different needs
+                    and spaces.</p>
+            </div>
+
+            <div class="faq">
+                <h2>2. How do I choose the right space heater for my home?</h2>
+                <p>Choosing the right space heater depends on the size of the room, the level of insulation, and the
+                    type of heater. Ceramic heaters are great for small to medium-sized rooms, oil-filled radiators are
+                    ideal for continuous heat, and infrared heaters are perfect for quick, direct heat.</p>
+            </div>
+
+            <div class="faq">
+                <h2>3. Are space heaters energy efficient?</h2>
+                <p>Modern space heaters are designed to be energy efficient. Look for models with adjustable
+                    thermostats, energy-saving modes, and timers to help reduce energy consumption and costs.</p>
+            </div>
+
+            <div class="faq">
+                <h2>4. Can I leave my space heater on overnight?</h2>
+                <p>It is generally not recommended to leave space heaters on overnight or unattended. If you need to use
+                    a space heater while sleeping, make sure it has safety features such as overheat protection,
+                    tip-over switch, and an automatic shut-off timer.</p>
+            </div>
+
+            <div class="faq">
+                <h2>5. What safety features should I look for in a space heater?</h2>
+                <p>Important safety features to look for in a space heater include overheat protection, tip-over switch,
+                    cool-to-the-touch exterior, and automatic shut-off. These features help prevent accidents and ensure
+                    safe operation.</p>
+            </div>
+
+            <div class="faq">
+                <h2>6. How do I maintain my space heater?</h2>
+                <p>Regular maintenance of your space heater includes cleaning the exterior, ensuring the vents are not
+                    blocked, and checking the power cord for any damage. Always follow the manufacturer's instructions
+                    for specific maintenance guidelines.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>About Us</h2>
+                <p>We are dedicated to providing the best quality heaters to keep you warm during the cold seasons. Our
+                    products are designed with energy efficiency in mind, ensuring that you save money while staying
+                    cozy.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="about.html"> About </a></li>
+                    <li><a href="team.html"> Our Team </a></li>
+                    <li><a href="specials.html"> Specials </a></li>
+                    <li><a href="training.html"> Training </a></li>
+                    <li><a href="media.html"> Media </a></li>
+                    <li><a href="faqs.html"> FAQs </a></li>
+                    <li><a href="contact.html"> Contact Us </a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h2>Follow Us</h2>
+                <div class="social-icons">
+                    <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+            <div class="footer-section newsletter">
+                <h2>Newsletter</h2>
+                <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                <form action="#">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
