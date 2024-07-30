@@ -16,12 +16,35 @@ File Name: training.html -->
 
 <body>
     <header>
-        <nav>
-            <!-- <a>
-                <img id="logo" src="images/logo.jpg" alt="logo image" />
-            </a> -->
+        <div class="menu-container">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="menu-overlay">
+                <nav>
+                    <ul>
+                        <a href="index.html">
+                            <img id="logo" src="images/logo.png" alt="logo image" />
+                        </a>
+                        <li><a href="index.html"> Home </a></li>
+                        <li><a href="about.html"> About </a></li>
+                        <li><a href="team.html"> Our Team </a></li>
+                        <li><a href="specials.html"> Specials </a></li>
+                        <li><a href="training.html"> Training </a></li>
+                        <li><a href="media.html"> Media </a></li>
+                        <li><a href="faqs.html"> FAQs </a></li>
+                        <li><a href="contact.html"> Contact Us </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <nav class="desktop-menu">
             <ul>
                 <li><a href="index.html"> Home </a></li>
+                <div class="temp"></div>
                 <li><a href="about.html"> About </a></li>
                 <li><a href="team.html"> Our Team </a></li>
                 <li><a href="specials.html"> Specials </a></li>
